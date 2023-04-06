@@ -1,4 +1,4 @@
-
+/* Universal selector used to style all elements */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -34,12 +34,12 @@ body {
     font-size: 20px;
 }
 
-
+/* Changed div to nav to match changes made to HTML file*/
 .header nav ul {
     list-style-type: none;
 }
 
-
+/* Changed div to nav to match changes made to HTML file*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -54,6 +54,8 @@ p {
     font-size: 16px;
 }
 
+/* The hero banner image comes from the css styling of the hero class background-image as opposed to 
+having an img src in the html. I thought this was kind of cool to do. */
 .hero {
     height: 800px;
     width: 100%;
@@ -90,6 +92,8 @@ p {
     background-color: #2589bd;
 }
 
+/* The following 3 classes can be styled at once using a ',' to combine them. However, I think it is better to 
+leave them so that changes can be made to a single class if need be without altering the others. */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
