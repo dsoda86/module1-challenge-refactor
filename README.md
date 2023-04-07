@@ -1,25 +1,5 @@
 # module1-challenge-refactor
-Boot camp module 1 challege - refactoring
-## User Story
 
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
-```
+## Description
 
-## Acceptance Criteria
-
-```
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the icon and image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
+This module 1 challenge assignment's topic was code refactoring. We were given an index.html file and a style.css file for a marketing agency's (Horiseon) webpage that we had to review and make corrections to. The changes made will increase the page's web accessibility, which is important
