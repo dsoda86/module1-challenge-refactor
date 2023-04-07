@@ -9,7 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Styles element with the header class designation*/
+/* Styles element with the header class designation */
 .header {
     
     padding: 20px;
@@ -17,7 +17,7 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
-/* Styles h1 tag under element with class header*/
+/* Styles h1 tag under element with class header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -26,7 +26,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-/* Styles the nav bar within the parent element with header class*/
+/* Styles the nav bar within the parent element with header class */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,26 +35,25 @@ body {
     font-size: 20px;
 }
 
-/* Makes unordered list of nav items have a style type of none. (Changed div to nav to match changes made to HTML file)*/
+/* Makes unordered list of nav items have a style type of none. (Changed div to nav to match changes made to HTML file) */
 .header nav ul {
     list-style-type: none;
 }
 
-/* Styles the list items within header class under nav and ul. (Changed div to nav to match changes made to HTML file)*/
+/* Styles the list items within header class under nav and ul. (Changed div to nav to match changes made to HTML file) */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/* Styles items with the anchor tag such as the li in the nav bar*/
+/* Styles items with the anchor tag such as the li in the nav bar */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-/* Styles font of text within the paragraph tag*/
+/* Styles font of text within the paragraph tag */
 p {
     font-size: 16px;
 }
-
 /* The hero banner image comes from the css styling of the hero class background-image as opposed to 
 having an img src in the html. I thought this was kind of cool to do. */
 .hero {
@@ -64,6 +63,30 @@ having an img src in the html. I thought this was kind of cool to do. */
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+/* Styles main element of the page */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* Consolidated these classes that had same styling properties and values */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Consolidated these classes that had same styling properties and values */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
+/* Consolidated these classes that had same styling properties and values */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .float-left {
@@ -76,12 +99,7 @@ having an img src in the html. I thought this was kind of cool to do. */
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-/* Styles the aside*/
+/* Styles the aside */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -92,84 +110,31 @@ having an img src in the html. I thought this was kind of cool to do. */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Consolidated these classes that had same styling properties and values */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Consolidated these classes that had same styling properties and values */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3  {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Consolidated these classes that had same styling properties and values */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Styles the footer */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* Styles the h2 tag of the footer */
 .footer h2 {
     font-size: 20px;
 }
